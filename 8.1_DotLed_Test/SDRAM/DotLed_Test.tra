@@ -1,0 +1,26 @@
+*** Creating Trace Output File '.\SDRAM\DotLed_Test.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '".\sdram\s3c2410a.o"'
+### List of Objects: adding '".\sdram\main.o"'
+### List of Objects: adding '".\sdram\dotled.o"'
+### List of Objects: adding '".\sdram\fonts.o"'
+### List of Objects: adding '".\sdram\led16x16.o"'
+### List of Objects: adding '".\sdram\2410lib.o"'
+### List of Objects: adding '".\sdram\sys_init.o"'
+### ADS-LD Command completed:
+--cpu ARM920T ".\sdram\s3c2410a.o" ".\sdram\main.o" ".\sdram\dotled.o" ".\sdram\fonts.o" ".\sdram\led16x16.o" ".\sdram\2410lib.o" ".\sdram\sys_init.o" 
+--strict --scatter ".\SDRAM\DotLed_Test.sct" 
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\SDRAM\DotLed_Test.map" -o .\SDRAM\DotLed_Test.axf### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: '.\SDRAM\DotLed_Test.axf'
+### ADS-LD Command File: '.\SDRAM\DotLed_Test.lnp'
+### Checking for dirty Components...
+### Creating CmdFile '.\SDRAM\DotLed_Test.lnp', Handle=0x000007D4
+### Writing '.lnp' file
+### ADS-LD Command file '.\SDRAM\DotLed_Test.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.

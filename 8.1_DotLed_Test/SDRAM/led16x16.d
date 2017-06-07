@@ -1,0 +1,10 @@
+.\SDRAM\led16x16.o: Source\led16x16.c
+.\SDRAM\led16x16.o: C:\Keil\ARM\ARMCC\bin\..\include\stdio.h
+.\SDRAM\led16x16.o: ..\Common\Inc\2410lib.h
+.\SDRAM\led16x16.o: ..\Common\Inc\def.h
+.\SDRAM\led16x16.o: ..\Common\Inc\memcfg.h
+.\SDRAM\led16x16.o: ..\Common\Inc\option.h
+.\SDRAM\led16x16.o: ..\Common\Inc\register.h
+.\SDRAM\led16x16.o: ..\Common\Inc\2410addr.h
+.\SDRAM\led16x16.o: .\Include\fonts.h
+.\SDRAM\led16x16.o: .\Include\led16x16.h

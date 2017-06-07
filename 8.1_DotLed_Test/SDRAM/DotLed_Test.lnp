@@ -1,0 +1,5 @@
+--cpu ARM920T ".\sdram\s3c2410a.o" ".\sdram\main.o" ".\sdram\dotled.o" ".\sdram\fonts.o" ".\sdram\led16x16.o" ".\sdram\2410lib.o" ".\sdram\sys_init.o" 
+--strict --scatter ".\SDRAM\DotLed_Test.sct" 
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\SDRAM\DotLed_Test.map" -o .\SDRAM\DotLed_Test.axf

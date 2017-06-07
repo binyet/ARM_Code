@@ -1,0 +1,12 @@
+.\SDRAM\lcd.o: Source\lcd.c
+.\SDRAM\lcd.o: C:\Keil\ARM\ARMCC\bin\..\include\string.h
+.\SDRAM\lcd.o: ..\Common\Inc\2410lib.h
+.\SDRAM\lcd.o: ..\Common\Inc\def.h
+.\SDRAM\lcd.o: ..\Common\Inc\memcfg.h
+.\SDRAM\lcd.o: ..\Common\Inc\option.h
+.\SDRAM\lcd.o: ..\Common\Inc\register.h
+.\SDRAM\lcd.o: ..\Common\Inc\2410addr.h
+.\SDRAM\lcd.o: .\Include\lcd.h
+.\SDRAM\lcd.o: .\Include\glib.h
+.\SDRAM\lcd.o: .\Include\lcdlib.h
+.\SDRAM\lcd.o: .\Include\demo256.h
